@@ -1,31 +1,14 @@
-6106 Project – Machine Learning Models
+Ecommerce Customer Behavior Analysis – Complete Web App & ML Pipeline
 
-This project analyzes an e-commerce dataset using multiple ML algorithms:
-
-- Decision Tree (Entropy & Gini)
-- Random Forest (Entropy & Gini)
-- K-Nearest Neighbors (KNN)
-
-  Files
-- "project1.ipynb" – Jupyter Notebook version
--"project1.p"` – Python script version
--"requirements.txt" – Dependencies
-
-  How to Run the Notebook
-pip install -r requirements.txt
-jupyter notebook
-
-Open "project1.ipynb" and run all cells.
-
-How to Run the Python Script
+This repository contains:
+- Streamlit Web App (`app.py`)
+- Machine Learning notebook code
+- Full preprocessing, EDA, and ML models
+- Requirements file for deployment
+How to Run Locally
 
 pip install -r requirements.txt
-python project1.py
+streamlit run app.py
 
-
- Libraries Used
-- pandas
-- scikit-learn
-- seaborn
-- matplotlib
-
+Deployment
+Push all files to GitHub and deploy using "Streamlit Cloud".
